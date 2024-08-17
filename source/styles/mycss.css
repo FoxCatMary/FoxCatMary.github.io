@@ -1,0 +1,78 @@
+
+body{
+    background: linear-gradient(0deg, #133977  25%, #2b3035 89%);
+}
+p{
+    color:rgb(255, 255, 255); ;
+}
+.nav-link{
+    color: rgb(161, 161, 161);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(255, 255, 255);
+}
+.navbar-brand img{
+width: 40px;
+}
+.navbar-toggler {
+    background-color: rgb(167, 167, 167);
+}
+
+.sitebar{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(270deg, #133977  25%, #2b3035 89%);
+}
+.card{
+    background-color:#272727;
+    color: rgb(255, 255, 255);
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.slide-text,
+.footer-text{
+    color: rgb(255, 255, 255);
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary{
+    background: linear-gradient(270deg, #133977  25%, #2b3035 89%);
+
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim{
+    animation: myAnim 3s ease 1s infinite normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
